@@ -117,6 +117,7 @@ text-align: center;
 
 .info-item {
     text-align: center;
+    color: #1f2937;
 }
 
 .info-item p { 
@@ -124,3 +125,33 @@ text-align: center;
     color: #1f2937;
 }
 
+/* This i the qoute section  */ 
+
+.testimonial-section {
+    background-color:#e5e7eb;
+    padding:25px 0;
+    text-align: center;
+    
+}
+
+.testimonial-section blockquote {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size:36px;
+}
+.call-to-action-section{
+
+
+}.container2 {
+background-color:#3882f6;
+max-width: 800px;
+margin:0 auto;
+padding: 0 20 px;
+
+}
+
+.btn-call {
+    background-color: #3882f6;
+    color:#f9faf8;
+    border: none;
+}
