@@ -138,3 +138,31 @@ h2 {
     font-size: 18px;
     color: #1f2937;
 }
+
+.third-section{
+    background-color: #e5e7eb;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3{
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #1f3927;
+    text-align: center;
+}
+
+.p-third{
+    font-size:18px;
+    text-align: end;
+    margin-right: 400px;
+    
+}
+
+#p-div{
+    display:flex;
+    justify-content: flex-end;
+}
