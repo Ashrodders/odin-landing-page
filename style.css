@@ -1,157 +1,140 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/RobotoSlab-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Project after fonts */
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-body { font-family:sans-serif;
-
 }
 
-.header-hero-wrapper {
-width: 100%;
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
-.header {
-display:flex;
-justify-content: space-between;
-align-items: center;
-padding:20px;
-background-color:#1f2937;
-
+.first-section {
+    background-color: #1f2937;
 }
 
-.header-logo img {
-    height: 50px;
-    width: auto;
-    margin-right: 40px;
-    
+#header-logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
-.header-logo {
-    margin-left: 40px;
-}
-
-.nav-links {
-    display:flex;
-    list-style:none;
-    margin-right: 40px;
-
-}
-
-.nav-links li {
-    margin-left:20px;
-
-}
-
-.nav-links a {
-    text-decoration:none;
-    color:#f9faf8;
-    font-size:18px;
-}
-
-/* hero section baby*/
-
-.hero {
-display:flex;
-justify-content:center;
-align-items: center;
-padding:50px 50px;
-background-color: #2d3748;
-
-}
-
-.left-hero {
-    flex:1;
-    max-width:50%;
+ul {
     display: flex;
-    flex-direction:column;
+    flex-direction: row;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-left, .navbar-right {
+    display: flex;
+    width: 50%;
     justify-content: center;
-    align-items:flex-start;
-    padding: 0 20px;
-    margin-top: 100px;
-    margin-left: 20px;
-}
-.right-hero {
-    flex:1;
-    max-width: 50%;
+    align-items: center;
 }
 
-.right-hero img {
-    width:80%;
-    height: auto;
-    margin: right 20px;
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8 !important;
+    margin-right: 40px;
 }
 
-.hero h1, p {
-    color:#f9faf8;
-    margin-top: 40px;
-}
-
-button {
-    background-color: #3882f6;
-    color:#f9faf8;
-    padding: 5px 20px;
-    border-radius: 10%;
-}
-
-.image-info-section {
-padding:50px 20px;
-background-color: #f1f5f9;
-text-align: center;
-
-}
-
-.image-info-section h2 {
-    font-size:36px;
-    margin-bottom: 40px;
-    color: #1f2937;
-}
-
-.info-items {
+.content {
     display: flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap: 20px;
-
+    flex-direction: row;
+    margin: 50px;
 }
 
-.info-item {
-    text-align: center;
-    color: #1f2937;
+.content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
 }
 
-.info-item p { 
-    font-size:18px;
-    color: #1f2937;
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 150px;
 }
 
-/* This i the qoute section  */ 
-
-.testimonial-section {
-    background-color:#e5e7eb;
-    padding:25px 0;
-    text-align: center;
-    
+img {
+    margin-bottom: 50px;
 }
 
-.testimonial-section blockquote {
-    max-width: 600px;
-    margin: 0 auto;
-    font-size:36px;
-}
-.call-to-action-section{
-
-
-}.container2 {
-background-color:#3882f6;
-max-width: 800px;
-margin:0 auto;
-padding: 0 20 px;
-
+.p-first {
+    font-size: 18px;
+    color: #e5e7eb !important;
 }
 
-.btn-call {
+.header-link {
+    font-size: 18px;
+    color: #e5e7eb !important;
+    margin-left: 90px;
+}
+
+.sign-up-first-section {
     background-color: #3882f6;
-    color:#f9faf8;
-    border: none;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px #3882f6;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center the row horizontally */
+}
+
+.row-of-blue-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 80%;
+    width: 100%;
+    margin: 20px auto;
+    gap: 20px; /* Adds space between boxes */
+}
+
+.box-blue-msg {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers text under the box */
+    text-align: center;
+}
+
+.box-blue {
+    border: 3px solid #3882f6;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px; /* Fixed incorrect syntax */
+}
+
+.p-second {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #1f2937;
 }
